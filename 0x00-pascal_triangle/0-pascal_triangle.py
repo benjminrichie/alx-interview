@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Writing a function for Pascal's Triangle"""
+"""Pascal's Triangle function for specialization"""
 
 
 def pascal_triangle(n):
     """
-    returns a lists of integers
+    To return lists of int
     representing the Pascal’s triangle
     """
     if n <= 0:
