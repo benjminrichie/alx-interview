@@ -13,7 +13,7 @@ def int_to_bits(nums):
     """
     for num in nums:
         bits = []
-        mask = 1 << 8  # Reason is we have 8 bits per byte. sums up to (11111111)
+        mask = 1 << 8  # Reason is we've 8 bits per byte. sums to (11111111)
         while mask:
             mask >>= 1
             bits.append(bool(num & mask))
