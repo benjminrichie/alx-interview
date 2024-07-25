@@ -50,4 +50,3 @@ def validUTF8(data):
             if byte[0:2] != [1, 0]:
                 return False
     return True
-
