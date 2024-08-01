@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-Solution to the nqueens problem
+nqueens problem
 """
 import sys
 
 
 def backtrack(r, n, cols, pos, neg, board):
     """
-    backtrack function to find solution
+    function to find solution
     """
     if r == n:
         res = []
